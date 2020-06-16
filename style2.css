@@ -1,0 +1,43 @@
+body,html{
+	height:100%; 
+	width:100%;
+	background:url(webdev.jpg) no-repeat center center fixed;
+	background-size:cover;
+} 
+ h1{
+   color:#dd2828;
+   font-family: 'Bellota', cursive;
+   } 
+
+
+
+
+
+.buffer{
+	height:9rem;
+}
+
+img{
+   height:120px;
+   width:120px;
+}
+img:hover{
+	transform:scale(1.2);
+	transition-duration:3s; 
+}
+.btn{
+	background-color:#dd2828;
+	padding:7px;
+	border-radius:20px;
+}
+.btn-md{
+	background-color:#dd2828;
+	border:1px solid red;
+
+}
+.btn-md:hover{
+	border-color:1px solid red;
+	background-color:#dd2828;
+	transform:scale(1.1);
+	transition-duration:2s;
+}

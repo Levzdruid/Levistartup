@@ -1,0 +1,63 @@
+body,html{
+	width:100%;
+	height:100%;
+	background:url(startup2.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1{
+  display:inline-block;
+  margin:0 0.5rem;
+  color:#f7f3f3;
+  font-family: 'Bellota', cursive;
+  animation:zoomIn;
+  animation-duration:2s;
+  animation-delay: 2s;
+}
+
+
+hr{
+
+    height:1rem;
+    max-width:65px;
+    border-color:#dd2828;
+    animation:bounceIn;
+    animation-duration:3s;
+    animation-delay: 1s;
+
+}
+/*Nav bar colors*/
+#navigation *{
+  color:#f7f3f3;
+}
+#navigation *:hover{
+  color:#dd2828;
+}
+.buffer{
+  height:2rem;
+  
+
+}
+
+.btn{
+   padding:7px;
+   border:0.8px solid;
+   border-color:#ff0000;
+
+}
+
+.btn-dark:hover{
+  color:black;
+  border-color:#ff0000;
+  background-color:#ff0000;
+}
+
+.btn-xs{
+    margin-top:1rem;
+    border-radius:15px; 
+    
+}
+
